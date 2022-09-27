@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+}
+
+#header {
+  height: 170px;
+  background-color: palevioletred;
+  text-align: center;
+  background-position: center;
+  font-family: "Ms Madi", cursive;
+  font-size: 50px;
+  font-weight: 50px;
+  color: crimson;
+  line-height: 140px;
+}
+
+#nav {
+  height: 25px;
+  background-color: blueviolet;
+  text-align: left;
+  font-size: 25px;
+  font-family: "Ms Madi", cursive;
+  padding: 15px 10px 20px 15px;
+  list-style: none;
+}
+.a {
+  list-style: none;
+  text-align: center;
+  display: flex;
+}
+a:hover {
+  color: rgb(255, 244, 255);
+  text-decoration: none;
+  list-style: none;
+}
+#main {
+  height: 600px;
+  background-color: rgb(170, 32, 60);
+  font-size: 10px;
+  display: flex;
+  color: rgb(0, 0, 0);
+}
+
+#footer {
+  height: 60px;
+  font-size: 40px;
+  background-color: darksalmon;
+  text-align: right;
+}
+ul {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+#receta {
+  height: 500px;
+  border: 5px;
+  background-color: bisque;
+  font-size: 23px;
+  text-align: left;
+  width: 250px;
+  border: rgb(0, 0, 0);
+  border-style: groove;
+}
+#procedimiento {
+  height: 500px;
+  border: 5px;
+  background-color: burlywood;
+  font-size: 15px;
+  text-align: center;
+  width: 900px;
+  border: black;
+  border-style: groove;
+}
+#imagen img {
+  float: right;
+  margin: 100px 10px 10px 10px;
+  width: 300px;
+  height: 300px;
+  background-color: darkslateblue;
+  border: black;
+  border-style: groove;
+}
+#Nombre_de_la_Receta {
+  height: 500px;
+  width: 90px;
+  background-color: aquamarine;
+  font-size: 30px;
+  border: black;
+  border-style: groove;
+}

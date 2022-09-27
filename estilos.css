@@ -1,13 +1,76 @@
-p {
-    color: purple;
-    border: 1px solid black;
-    background-color: yellow;
+/*Esto cambia toda la pagina*/
+
+body {
+  margin: 0;
 }
-#footer{
-    color: tomato;
-    font-size: 30px;
-    background-color: brown;
+/*Esto es la cabecera*/
+#header {
+  height: 150px;
+  /*background-color: blueviolet;*/
+  background-image: url(https://tse4.mm.bing.net/th/id/OIP.46jRUJKolWwwbT74zwgtBgHaEK?pid=ImgDet&rs=1);
+  background-size: cover;
+  background-position: bottom;
+  color: rgb(58, 50, 0);
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Monoton", cursive;
+
+  text-align: center;
+  line-height: 150px;
 }
-.verde{
-    color: green;
+#Menu {
+  background-color: darkblue;
+  height: 50px;
+  color: red;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: right;
+  padding-bottom: 0px;
+  padding-top: 20px;
+}
+
+/*Esto es el contenido principal*/
+#main {
+  height: 500px;
+  background-color: darkgoldenrod;
+  display: flex;
+  flex-direction: row;
+
+  color: black;
+}
+/*El pie de pagina*/
+#footer {
+  height: 150px;
+  background-color: coral;
+  color: black;
+  line-height: 150px;
+  text-align: center;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0 50px 0 0;
+}
+#sidebar {
+  background-color: darkcyan;
+  height: 500px;
+  width: 100%;
+}
+#article {
+  background-color: darkred;
+  height: 500px;
+  width: 50%;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: darkkhaki;
 }
